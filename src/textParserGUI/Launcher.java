@@ -1,4 +1,4 @@
-package textParser;
+package textParserGUI;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +19,7 @@ public class Launcher extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-	     root = FXMLLoader.load(getClass().getResource("../textParserGUI/Parser.fxml"));
+		 root = FXMLLoader.load(getClass().getResource("/textParserGUI/Parser.fxml"));
 	     Scene scene = new Scene(root);
          primaryStage.setScene(scene);     
          primaryStage.setTitle("Verse Parser");

@@ -4,7 +4,7 @@ package textParser;
  * @author Andrew Huang
  *
  */
-@SuppressWarnings("UnusedModifier")
+
 public interface ITextIO {
 	
 	/**
