@@ -40,7 +40,7 @@ public class TextIO implements ITextIO{
 			while(scan.hasNext()){
 				current = scan.next();
 				if(isInt(current) || current.contains(s)) {
-					current = "\n "+ chapter + ":" + current + "=";
+					current = "\n"+ chapter + ":" + current + "=";
 				}
 				else{
 					current += " ";
